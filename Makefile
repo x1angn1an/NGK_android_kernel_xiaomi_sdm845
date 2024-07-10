@@ -788,7 +788,7 @@ else
 KBUILD_CFLAGS   += -O3
 endif
 
-KBUILD_CFLAGS	+= -O3 -mtune=cortex-a55 -mcpu=cortex-a55+crc+crypto+fp16+simd+sve \
+KBUILD_CFLAGS	+= -O3 -mtune=cortex-a55 \
 -fomit-frame-pointer -pipe \
 -funroll-loops \
 -ftree-vectorize \
